@@ -1,16 +1,18 @@
 # Smart Home Energy Monitoring System Using ESP32
 
 ## Overview
-This project demonstrates the design and simulation of a Smart Home Energy Monitoring System using the ESP32 microcontroller. The project was developed step by step using Wokwi simulation before hardware implementation.
+This project demonstrates the design and simulation of a Smart Home Energy Monitoring System using the ESP32 microcontroller. The project was developed step by step using Wokwi simulation before hardware implementation. The system is capable of monitoring electrical parameters such as voltage, current, and power consumption. The final goal is to integrate these measurements with an IoT dashboard for real-time monitoring and analysis. Similar ESP32-based energy monitoring systems are widely used for smart energy management and remote monitoring applications. :contentReference[oaicite:0]{index=0}
 
 ## Features
-- ESP32-based energy monitoring
+- ESP32-based energy monitoring system
 - Analog sensor reading
 - Voltage measurement
 - Simulated current measurement
 - Power calculation
 - Wokwi simulation
-- Step-by-step project documentation
+- GitHub project documentation
+- Step-by-step project development
+- Future IoT dashboard integration
 
 ## Development Progress
 - ✅ Day 1 – Project Planning & Documentation
@@ -18,18 +20,46 @@ This project demonstrates the design and simulation of a Smart Home Energy Monit
 - ✅ Day 3 – Analog Sensor Reading
 - ✅ Day 4 – Voltage Reading
 - ✅ Day 5 – Current Measurement & Power Calculation
+- ✅ Day 6 – Documentation & GitHub Repository
+- ⏳ Day 7 – Final IoT Smart Home Energy Monitoring System
+
+## Wokwi Simulation Projects
+
+### Day 2 – ESP32 Blink LED Simulation
+https://wokwi.com/projects/471075690246161409
+
+### Day 3 – ESP32 Analog Sensor Reading
+https://wokwi.com/projects/471147536936393729
+
+### Day 4 – ESP32 Voltage Reading
+https://wokwi.com/projects/471225538316511233
+
+### Day 5 – ESP32 Current and Power Calculation
+https://wokwi.com/projects/471226533325050881
 
 ## Tools Used
 - ESP32
 - Arduino IDE
-- Wokwi
+- Wokwi Simulator
 - GitHub
+- Google Docs
+
+## Project Documentation
+The project is documented day by day with:
+- Project descriptions
+- Simulation screenshots
+- Wokwi project links
+- Development progress records
 
 ## Future Improvements
-- Connect a real ACS712 current sensor
-- Display live data on a Blynk IoT dashboard
-- Measure energy consumption (kWh)
-- Build the physical hardware prototype
+- Improve sensor accuracy
+- Add energy consumption history
+- Send notifications for high power usage
+- Design a PCB for the final hardware
+- Implement advanced energy analytics
 
 ## Author
 Rizwan Ahmed
+
+## License
+This project is developed for educational and academic purposes.
