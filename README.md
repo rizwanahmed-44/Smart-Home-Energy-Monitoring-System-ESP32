@@ -1,37 +1,67 @@
 # Smart Home Energy Monitoring System Using ESP32
 
 ## Overview
-This project demonstrates the design and simulation of a Smart Home Energy Monitoring System using the ESP32 microcontroller. The project was developed step by step using Wokwi simulation before hardware implementation. The system is capable of monitoring electrical parameters such as voltage, current, and power consumption. The final goal is to integrate these measurements with an IoT dashboard for real-time monitoring and analysis. Similar ESP32-based energy monitoring systems are widely used in smart homes, industrial monitoring, and energy management applications for real-time electrical parameter monitoring and remote access through IoT platforms.
+
+This project demonstrates the design and simulation of a **Smart Home Energy Monitoring System** using the **ESP32 microcontroller**. The project was developed step by step using the **Wokwi simulator** before implementing the actual hardware prototype.
+
+The system is capable of monitoring electrical parameters such as **voltage**, **current**, and **power consumption**. The measured values are transmitted to the **Blynk IoT Platform**, where they can be monitored in real time through a cloud-based dashboard.
+
+This project serves as a foundation for a future hardware implementation using real voltage and current sensors. Similar ESP32-based energy monitoring systems are widely used in smart homes, industrial monitoring, and IoT-based energy management applications.
+
+---
+
 ## Features
-- ESP32-based energy monitoring system
-- Analog sensor reading
-- Voltage measurement
-- Simulated current measurement
-- Power calculation
-- Wokwi simulation
-- GitHub project documentation
-- Step-by-step project development
-- Future IoT dashboard integration
+
+- ESP32-based Energy Monitoring System
+- Analog Sensor Reading
+- Voltage Measurement
+- Simulated Current Measurement
+- Real-Time Power Calculation
+- Blynk IoT Dashboard Integration
+- Wokwi Circuit Simulation
+- GitHub Project Documentation
+- Step-by-Step Project Development
+- Future Hardware Upgrade Support
+
+---
 
 ## Development Progress
-- ✅ Day 1 – Project Planning & Documentation
-- ✅ Day 2 – ESP32 Blink LED Simulation
-- ✅ Day 3 – Analog Sensor Reading
-- ✅ Day 4 – Voltage Reading
-- ✅ Day 5 – Current Measurement & Power Calculation
-- ✅ Day 6 – Documentation & GitHub Repository
-- ✅ Day 7 – Final Integrated Smart Home Energy Monitoring System with IoT Dashboard
+
+- ✅ **Day 1** – Project Planning & Documentation
+- ✅ **Day 2** – ESP32 Blink LED Simulation
+- ✅ **Day 3** – Analog Sensor Reading
+- ✅ **Day 4** – Voltage Reading & ADC Conversion
+- ✅ **Day 5** – Current Measurement & Power Calculation
+- ✅ **Day 6** – IoT Dashboard, Documentation & GitHub Repository
+- ✅ **Day 7** – Final Integrated Smart Home Energy Monitoring System with Blynk IoT Dashboard
+
+---
 
 ## Final Project
 
-The final project integrates the ESP32 microcontroller with the Blynk IoT platform to simulate a Smart Home Energy Monitoring System. Two potentiometers are used to simulate voltage and current sensors. The ESP32 reads the analog values, calculates voltage, current, and power, and transmits the data to a cloud-based dashboard in real time.
+The final project integrates the **ESP32 microcontroller** with the **Blynk IoT Platform** to simulate a Smart Home Energy Monitoring System.
 
-### Future Hardware Version
+Two potentiometers are used in the Wokwi simulation to represent the outputs of voltage and current sensors. The ESP32 continuously reads the analog values, converts them into voltage and current, calculates electrical power, and transmits the results to the Blynk cloud dashboard in real time.
+
+This simulation demonstrates the complete workflow of an IoT-based energy monitoring system before implementing the hardware version.
+
+---
+
+## Future Hardware Version
+
 The simulation will be upgraded into a real hardware project using:
+
 - ESP32 DevKit V1
 - ZMPT101B AC Voltage Sensor
 - ACS712 Current Sensor
 - Blynk IoT Platform
+- Breadboard & Jumper Wires
+- OLED Display (Optional)
+- Relay Module (Optional)
+
+The hardware version will measure real electrical parameters and display live energy data through the Blynk dashboard.
+
+---
 
 ## Wokwi Simulation Projects
 
@@ -44,35 +74,97 @@ https://wokwi.com/projects/471147536936393729
 ### Day 4 – ESP32 Voltage Reading
 https://wokwi.com/projects/471225538316511233
 
-### Day 5 – ESP32 Current and Power Calculation
+### Day 5 – ESP32 Current Measurement & Power Calculation
 https://wokwi.com/projects/471226533325050881
 
-Day 7 – Final Smart Home Energy Monitoring System:
+### Day 7 – Final Smart Home Energy Monitoring System
 https://wokwi.com/projects/471392069130606593
 
-## Tools Used
-- ESP32
+---
+
+## Project Screenshots
+
+### Wokwi Simulation
+*(Add image here after uploading it to the Images folder.)*
+
+### Blynk Dashboard
+*(Add image here after uploading it to the Images folder.)*
+
+---
+
+## Tools & Technologies Used
+
+- ESP32 DevKit V1
 - Arduino IDE
+- C++
 - Wokwi Simulator
+- Blynk IoT Platform
 - GitHub
 - Google Docs
 
+---
+
+## Skills Demonstrated
+
+- ESP32 Programming
+- Embedded Systems
+- Internet of Things (IoT)
+- Analog-to-Digital Conversion (ADC)
+- Sensor Data Processing
+- Voltage & Current Measurement
+- Electrical Power Calculation
+- Blynk Cloud Integration
+- GitHub Version Control
+- Technical Documentation
+
+---
+
 ## Project Documentation
-The project is documented day by day with:
-- Project descriptions
-- Simulation screenshots
-- Wokwi project links
-- Development progress records
+
+The project has been documented day by day and includes:
+
+- Project Planning
+- Daily Development Progress
+- Wokwi Simulation Links
+- Source Code
+- Circuit Screenshots
+- Blynk Dashboard Screenshots
+- Technical Documentation
+
+---
 
 ## Future Improvements
-- Improve sensor accuracy
-- Add energy consumption history
-- Send notifications for high power usage
-- Design a PCB for the final hardware
-- Implement advanced energy analytics
+
+- Replace simulated sensors with:
+  - ACS712 Current Sensor
+  - ZMPT101B AC Voltage Sensor
+- Measure real Voltage, Current, Power and Energy (kWh)
+- Improve sensor calibration and measurement accuracy
+- Store historical energy consumption data
+- Send high power usage notifications
+- Design a custom PCB
+- Develop a mobile-friendly dashboard
+
+---
+
+## Project Status
+
+✅ **Version 1.0 (Simulation)** — Completed
+
+🔄 **Version 2.0 (Hardware Implementation)** — Planned
+
+---
 
 ## Author
-Rizwan Ahmed
+
+**Rizwan Ahmed**
+
+Electrical and Electronic Engineering (EEE) Student
+
+BRAC University
+
+---
 
 ## License
-This project is developed for educational and academic purposes.
+
+This project was developed for educational and academic purposes.
