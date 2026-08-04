@@ -1,8 +1,7 @@
 # Smart Home Energy Monitoring System Using ESP32
 
 ## Overview
-This project demonstrates the design and simulation of a Smart Home Energy Monitoring System using the ESP32 microcontroller. The project was developed step by step using Wokwi simulation before hardware implementation. The system is capable of monitoring electrical parameters such as voltage, current, and power consumption. The final goal is to integrate these measurements with an IoT dashboard for real-time monitoring and analysis. Similar ESP32-based energy monitoring systems are widely used for smart energy management and remote monitoring applications. :contentReference[oaicite:0]{index=0}
-
+This project demonstrates the design and simulation of a Smart Home Energy Monitoring System using the ESP32 microcontroller. The project was developed step by step using Wokwi simulation before hardware implementation. The system is capable of monitoring electrical parameters such as voltage, current, and power consumption. The final goal is to integrate these measurements with an IoT dashboard for real-time monitoring and analysis. Similar ESP32-based energy monitoring systems are widely used in smart homes, industrial monitoring, and energy management applications for real-time electrical parameter monitoring and remote access through IoT platforms.
 ## Features
 - ESP32-based energy monitoring system
 - Analog sensor reading
