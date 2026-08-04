@@ -23,6 +23,17 @@ This project demonstrates the design and simulation of a Smart Home Energy Monit
 - ✅ Day 6 – Documentation & GitHub Repository
 - ⏳ Day 7 – Final Integrated Smart Home Energy Monitoring System with IoT Dashboard
 
+## Final Project
+
+The final project integrates the ESP32 microcontroller with the Blynk IoT platform to simulate a Smart Home Energy Monitoring System. Two potentiometers are used to simulate voltage and current sensors. The ESP32 reads the analog values, calculates voltage, current, and power, and transmits the data to a cloud-based dashboard in real time.
+
+### Future Hardware Version
+The simulation will be upgraded into a real hardware project using:
+- ESP32 DevKit V1
+- ZMPT101B AC Voltage Sensor
+- ACS712 Current Sensor
+- Blynk IoT Platform
+
 ## Wokwi Simulation Projects
 
 ### Day 2 – ESP32 Blink LED Simulation
@@ -36,6 +47,9 @@ https://wokwi.com/projects/471225538316511233
 
 ### Day 5 – ESP32 Current and Power Calculation
 https://wokwi.com/projects/471226533325050881
+
+Day 7 – Final Smart Home Energy Monitoring System:
+https://wokwi.com/projects/471392069130606593
 
 ## Tools Used
 - ESP32
