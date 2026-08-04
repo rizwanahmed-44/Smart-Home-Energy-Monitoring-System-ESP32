@@ -85,10 +85,10 @@ https://wokwi.com/projects/471392069130606593
 ## Project Screenshots
 
 ### Wokwi Simulation
-*(Add image here after uploading it to the Images folder.)*
+![Wokwi Simulation](Images/Day7_Final_Wokwi_Project.png)
 
 ### Blynk Dashboard
-*(Add image here after uploading it to the Images folder.)*
+![Blynk Dashboard](Images/Day7_Blynk_Dashboard.png)
 
 ---
 
