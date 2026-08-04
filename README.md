@@ -21,7 +21,7 @@ This project demonstrates the design and simulation of a Smart Home Energy Monit
 - ✅ Day 4 – Voltage Reading
 - ✅ Day 5 – Current Measurement & Power Calculation
 - ✅ Day 6 – Documentation & GitHub Repository
-- ⏳ Day 7 – Final Integrated Smart Home Energy Monitoring System with IoT Dashboard
+- ✅ Day 7 – Final Integrated Smart Home Energy Monitoring System with IoT Dashboard
 
 ## Final Project
 
